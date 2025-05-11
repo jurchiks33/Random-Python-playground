@@ -20,25 +20,41 @@
 # print(name.lower())
 # print(name.upper())
 
-first_name = "james"
+# first_name = "james"
+# second_name = "bond"
+# full_name = f"{first_name} {second_name}"
+# print(full_name)
+
+# auto = "BMW"
+# model = "x5"
+# auto_model = f"{auto} {model}"
+# print(auto_model)
+
+# day = "monday"
+# mont = "September"
+# year = "2025"
+# todays_date = f"{day} {mont} {year}"
+# print(todays_date)
+
+# one = "today"
+# two = "is"
+# three = "sunny"
+# four = "weather"
+# todays_weather = f"{one} {two} {three} {four}"
+# print(todays_weather)
+
+name = "james"
 second_name = "bond"
-full_name = f"{first_name} {second_name}"
-print(full_name)
+full_name = f"{name} {second_name}"
+print(f"007 stands for {full_name}")
 
-auto = "BMW"
-model = "x5"
-auto_model = f"{auto} {model}"
-print(auto_model)
+name = "doctor"
+title = "chaos"
+character = f"{name} {title}"
+print(f"this one is super bad, {character.title()}")
 
-day = "monday"
-mont = "September"
-year = "2025"
-todays_date = f"{day} {mont} {year}"
-print(todays_date)
-
-one = "today"
-two = "is"
-three = "sunny"
-four = "weather"
-todays_weather = f"{one} {two} {three} {four}"
-print(todays_weather)
+another_name = "destroyer"
+another_spacing = "of"
+another_last = "world"
+full_blow = f"{another_name} {another_spacing} {another_last}"
+print(f"this is sound name im listening right now, {full_blow.upper()}")
